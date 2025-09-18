@@ -5,7 +5,7 @@ const N = 10000;
 // time complexity: O(N), space complexity: O(N)
 const sequence = Array.from({ length: N }, (_, i) => i + 1);
 
-// verify the sequence - for test
+// verify the sequence - uncomment to see generated sequence
 // console.log(sequence);
 
 // fisher-yates shuffler
