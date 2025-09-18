@@ -1,3 +1,10 @@
+/*
+  George Conde - Sept 2025
+  Solution: Randomizing a range of numbers
+  Generates numbers 1..N and shuffles them using the Fisher–Yates algorithm.
+  Complexity: O(N) time, O(1) extra space (in-place shuffle)
+*/
+
 // define range
 const N = 10000;
 
