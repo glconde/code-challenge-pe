@@ -19,4 +19,4 @@ node shuffle.js
 
 
 ### Demo
-Alternatively, live demo is also available here: https://jsfiddle.net/glconde/2br5ov1y/17/
+Alternatively, live demo is also available here: https://jsfiddle.net/glconde/2br5ov1y/29/
