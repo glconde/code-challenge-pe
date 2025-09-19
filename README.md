@@ -12,11 +12,35 @@ Then to randomize, I used the Fisher–Yates shuffle algorithm, which runs in O(
 
 The code includes a simple validation step to confirm correctness and is written in JavaScript for easy testing in Node.js (or other platform / tool).
 
-### Running via CLI
+### How to Run
+
+#### Clone the repo and run the CLI script with Node.js:
 ```bash
-node shuffle.js
+git clone https://github.com/glconde/code-challenge-pe.git
+cd code-challenge-pe
+node cli/run.js
 ```
 
+#### Options
+* Default settings (N = 10000, summary output)
+```bash
+node cli/run.js
+```
+-> Generates 10000 numbers, randomized, unique, summarized output
+
+* Custom range
+```bash
+node cli/run.js 100
+```
+-> Generates numbers from 1 to 100, randomized, summarized output
+
+* Show entire output
+```bash
+node cli/run.js 100 --all
+```
+-> Generates numbers from 1 to 100, then prints all the numbers
 
 ### Demo
-Alternatively, live demo is also available here: https://jsfiddle.net/glconde/2br5ov1y/29/
+Alternatively, live demo is also available here: https://jsfiddle.net/glconde/2br5ov1y/55/
+
+The JSFiddle version defaults to N = 10000 but allows changing the range and toggling full output.
