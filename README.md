@@ -42,7 +42,7 @@ node cli/run.js 100 --all
 -> Generates numbers from 1 to 100, randomize, prints all the numbers
 
 ### Demo
-Alternatively, live demo is also available here: https://jsfiddle.net/glconde/2br5ov1y/55/
+Alternatively, live demo is also available here: https://jsfiddle.net/glconde/2br5ov1y/
 
 The JSFiddle version defaults to N = 10000 but allows changing the range and toggling full output.
 
