@@ -6,7 +6,7 @@ This repository contains my solution for a specific coding challenge.
 
 The program generates numbers from 1 to 10,000 in random order each time it is run, ensuring all values are **unique** and **within the required range**. 
 
-To randomize the sequence, I used the Fisher–Yates shuffle algorithm. It runs in O(N) time and O(1) extra space, making it both efficient and reliable. 
+To randomize the sequence, I used the Fisher–Yates shuffle algorithm. This section runs in O(N) time and O(1) extra space, making it both efficient and reliable. However, overall, the program requires **O(N) space** to store the sequence.
 
 ### Extra / Validation
 
@@ -40,6 +40,9 @@ node cli/run.js 100
 node cli/run.js 100 --all
 ```
 -> Generates numbers from 1 to 100, randomize, prints all the numbers
+
+### Minimal Validation
+Input values are clamped to the range **1–10000**. Values below 1 default to 1; values above 10000 default to 10000.
 
 ### Demo
 Alternatively, live demo is also available here: https://jsfiddle.net/glconde/2br5ov1y/
